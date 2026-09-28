@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/newcss.css" />
     <link
       rel="stylesheet"
@@ -16,7 +15,7 @@
   <body oncontextmenu="return false">
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Rahul</a>
+        <a href="#" class="nav__logo">Rahul Yela</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
@@ -37,6 +36,11 @@
             <li class="nav__item">
               <a href="#qualification" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-folder-open nav__icon"></i>Projects
               </a>
             </li>
             <li class="nav__item">
@@ -75,7 +79,7 @@
               </a>
 
               <a
-                href="https://github.com/RahulYela"
+                href="https://github.com/rahul-yela-1017"
                 target="_blank"
                 class="home__social-icon"
               >
@@ -143,7 +147,7 @@
 
           <div class="about__data">
             <p class="about__description">
-              I'm a second-year computer science engineering student at Malla Reddy Vishwavidyapeeth, Hyderabad. I have a strong passion for technology and programming, and I'm eager to learn and grow in the field of computer science. I have experience working on various projects, including web development, machine learning, and data analysis. I'm always looking for new opportunities to expand my knowledge and skills in the tech industry.
+              I'm a second-year computer science engineering student at Malla Reddy Vishwavidyapeeth, Hyderabad. I have a strong passion for technology and programming, and I'm eager to learn and grow in the field of computer science. I have experience working on various projects, including web development, machine learning, and data analysis,Generative AI,Ai workflows I'm always looking for new opportunities to expand my knowledge and skills in the tech industry.
             </p>
 
             <div class="about__info">
@@ -169,6 +173,9 @@
             <div class="about__buttons">
               <a download="" href="assets\MyCV.pdf" class="button button--flex">
                 Download CV<i class="fas fa-download button__icon"></i>
+              </a>
+              <a download="" href="assets\resume!.pdf" class="button button--flex">
+                Download Resume<i class="fas fa-download button__icon"></i>
               </a>
             </div>
           </div>
@@ -199,14 +206,14 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">C</h3>
+                    <h3 class="skills__name">HTML&CSS</h3>
                   </div>
                   
                 </div>
                 
                   <div class="skills__data">
                     <div class="skills__titles">
-                      <h3 class="skills__name">Java</h3>
+                      <h3 class="skills__name">Generative AI</h3>
                     </div>
                     
                   </div>
@@ -225,6 +232,16 @@
                   <div class="skills__data">
                     <div class="skills__titles">
                       <h3 class="skills__name">TypeScript</h3>
+                    </div>
+                </div>
+               <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Node Js</h3>
+                    </div>
+                </div>
+               <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Next Js</h3>
                     </div>
                 </div>
                 
@@ -515,8 +532,7 @@
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
                           <p>
-                            Student coordinator in media and
-                            publication club of the college.
+                            Team leader in every Hackathon that i have participated.
                           </p>
                         </li>
                         <li class="services__modal-service">
@@ -532,24 +548,24 @@
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
                           <p>
-                            participated in various hackathons and coding competitions like Smart India Hackathon, CodeVita, and many more.
+                            participated in various hackathons and coding competitions like Smart India Hackathon, Neurax, and many more.
                           </p>
                         </li>
                         <li class="services__modal-service">
                           <i
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
-                          <p>
+                          <!-- <p>
                             Runners in Edu-Vitality Hackathon in the track of AI in Education.
-                          </p>
+                          </p> -->
                         </li>
                         <li class="services__modal-service">
                           <i
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
-                          <p>
+                          <!-- <p>
                             Finalist in Dark Pattern Buster Hackathon conducted by Department of Consumer Affairs of India.
-                          </p>
+                          </p> -->
                         </li>
                         
                       </ul>
@@ -564,6 +580,164 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!--===================== Featured Projects =====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Featured Projects</h2>
+        <span class="section__subtitle"
+          >A selection of AI, software, and full-stack projects I've built.</span
+        >
+
+        <div class="projects__grid container">
+          <article class="project-card">
+            <p class="project-card__category">
+              <span>AI</span>
+              <span>Industrial Automation</span>
+              <span>Enterprise SaaS</span>
+            </p>
+            <h3 class="project-card__title">INDOSOL</h3>
+
+            <p class="project-card__description">
+              An enterprise industrial-intelligence platform with a working
+              manufacturing analysis engine. It processes inspection,
+              production, and economic datasets to identify defects, process
+              changes, correlations, recurring patterns, and estimated
+              financial impact.
+            </p>
+            <aside
+              class="project-card__highlight"
+              aria-label="Runtime Data Analysis highlight"
+            >
+              <h4 class="project-card__highlight-title">
+                <i class="uil uil-chart-line" aria-hidden="true"></i>
+                Runtime Data Analysis
+              </h4>
+              <!-- <p>
+                Not a static dashboard: analysis is computed from uploaded CSV
+                data at runtime, not hardcoded.
+              </p> -->
+              <ol class="project-card__workflow" aria-label="Analysis workflow">
+                <li>Upload CSV</li>
+                <li>Run Analysis</li>
+                <li>Analyze Data</li>
+                <li>Generate Results</li>
+              </ol>
+              <p class="project-card__analysis-note">
+                Defect statistics, change points, correlations, and estimated
+                <span aria-label="rupee">&#8377;</span> impact.
+              </p>
+            </aside>
+
+            <ul class="project-card__tags" aria-label="Technologies and areas">
+              <li>AI</li>
+              <li>Industrial Automation</li>
+              <li>Data Analysis</li>
+              <li>CSV Analytics</li>
+              <li>Enterprise SaaS</li>
+              <li>JavaScript</li>
+              <li>Manufacturing Intelligence</li>
+            </ul>
+            <a
+              href="https://github.com/rahul-yela-1017/INDOSOL"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button--flex project-card__button"
+            >
+              View on GitHub
+              <i class="uil uil-arrow-right button__icon" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-card__category">
+              <span>AI</span>
+              <span>RAG</span>
+              <span>LLM</span>
+            </p>
+            <h3 class="project-card__title">AI Customer Support Chatbot</h3>
+            <p class="project-card__description">
+              Answers customer questions using company FAQs and documentation.
+              A local Ollama language model combines with RAG retrieval to
+              provide private, contextual responses from a knowledge base.
+            </p>
+            <ul class="project-card__tags" aria-label="Technologies used">
+              <li>Python</li>
+              <li>LangChain</li>
+              <li>RAG</li>
+              <li>Ollama</li>
+              <li>FAISS</li>
+              <li>LLM</li>
+              <li>Streamlit</li>
+            </ul>
+            <a
+              href="https://github.com/rahul-yela-1017/customer_support_chatbot"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button--flex project-card__button"
+            >
+              View on GitHub
+              <i class="uil uil-arrow-right button__icon" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-card__category">
+              <span>Generative AI</span>
+              <span>Developer Tools</span>
+            </p>
+            <h3 class="project-card__title">AI Code Generator</h3>
+            <p class="project-card__description">
+              Turns natural-language instructions into code, with a clear,
+              step-by-step explanation to help developers understand and use
+              the generated solution.
+            </p>
+            <ul class="project-card__tags" aria-label="Technologies used">
+              <li>Python</li>
+              <li>Generative AI</li>
+              <li>LLM</li>
+              <li>LangChain</li>
+              <li>Streamlit</li>
+              <li>Code Generation</li>
+            </ul>
+            <a
+              href="https://github.com/rahul-yela-1017/AI_CODE_GENERATOR"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button--flex project-card__button"
+            >
+              View on GitHub
+              <i class="uil uil-arrow-right button__icon" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-card__category">
+              <span>Web Development</span>
+              <span>Education</span>
+            </p>
+            <h3 class="project-card__title">Student Learning Platform</h3>
+            <p class="project-card__description">
+              A student-focused adaptive learning platform for exploring
+              concepts, processing documents, generating assessments, and
+              turning ideas into practical projects.
+            </p>
+            <ul class="project-card__tags" aria-label="Technologies used">
+              <li>HTML</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a
+              href="https://github.com/rahul-yela-1017/student-learning-paltform"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button--flex project-card__button"
+            >
+              View on GitHub
+              <i class="uil uil-arrow-right button__icon" aria-hidden="true"></i>
+            </a>
+          </article>
         </div>
       </section>
 
@@ -653,7 +827,7 @@
           <div>
             <h1 class="footer__title">Rahul</h1>
             <span class="footer__subtitle"
-              >Information Science Engineering Student</span
+              >Computer science engineer</span
             >
           </div>
 
@@ -662,7 +836,7 @@
               <a href="#qualification" class="footer__link">Qualification</a>
             </li>
             <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
+              <a href="#projects" class="footer__link">Projects</a>
             </li>
             <li>
               <a href="#contact" class="footer__link">Contact-Me</a>
@@ -697,7 +871,6 @@
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
-    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
     <script src="assets/ptj.js"></script>
   </body>
